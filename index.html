@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Carrito Mejorado</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+
+    <header>
+         <h1>🛍️ Tienda</h1>
+
+        <button id="menu-toggle"
+             class="menu-toggle"
+             aria-label="Abrir menu"
+             aria-expanded="false"
+             aria-controls="acciones">&#9776;</button>   
+         <nav id="acciones" class="acciones">
+            <button onclick="abrirModal()">🛒 Ver carrito (<span id="contador">0</span>)</button>
+            <button id="toggle-tema">🌙 Oscuro</button>
+         </nav>
+    </header>
+
+    <main>
+        <section id="filtros">
+            <button class="activo" data-cat="Todos">🌎 Todos</button>
+            <button data-cat="Gamer">🎮 Gamer</button>
+            <button data-cat="Hogar">🏚️ Hogar</button>
+            <button data-cat="Moda">👗 Moda</button>
+            <button data-cat="Telefonia">📱 Telefonía</button>
+        </section>
+
+        <div id="productos"></div>
+    </main>
+
+
+    <div id="modalCarrito" class="modal">
+        <div class="modal-contenido">
+            <div class="modal-header">
+                <h2>Carrito</h2>
+                <button class="btn-cerrar" onclick="cerrarModal()">X</button>
+            </div>
+            <div id="lista-carrito">
+                <ul id="items"></ul>
+                <h3 id="total">Total: $0</h3>
+                <button class="btn-vaciar" onclick="vaciarCarrito()">🗑️ Vaciar carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-ordenado.js"></script>
+    
+</body>
+</html>
