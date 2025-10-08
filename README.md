@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ Tienda Web Mejorada
 
 Tienda online creada con **HTML, CSS y JavaScript**, que permite explorar productos por categorías, cambiar de tema (claro/oscuro), agregar productos al carrito y ver el total actualizado en tiempo real.
@@ -50,3 +51,6 @@ Este proyecto me sirvió para analizar conocimiento en:
 ## ✨ Autor 
 Desarrollado con 💻, mate, cafe música y buena actitud.
 Por **Miguel David Ortigoza** en un proceso de aprendizaje de JavaScript y desarrollo web junto a la maestría de **ChatGPT**.
+=======
+# Tienda-Web
+>>>>>>> 161e7bb781279658b93e1a9c1cc23b5deb0945dd
