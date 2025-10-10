@@ -51,6 +51,8 @@ Este proyecto me sirvió para analizar conocimiento en:
 ## ✨ Autor 
 Desarrollado con 💻, mate, cafe música y buena actitud.
 Por **Miguel David Ortigoza** en un proceso de aprendizaje de JavaScript y desarrollo web junto a la maestría de **ChatGPT**.
+
+[ver demo en GitHub Pages](https://migueldavidortigoza.github.io/Tienda-Web/)
 =======
 # Tienda-Web
 >>>>>>> 161e7bb781279658b93e1a9c1cc23b5deb0945dd
