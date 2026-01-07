@@ -28,7 +28,9 @@ const productos = [
     { id: 2, titulo: "Mouse Gamer", precio: 15, img: "img/mouse.jpeg", categoria: "Gamer" },
     { id: 3, titulo: "Teclado Mecanico", precio: 30, img: "img/teclado.jpeg", categoria: "Gamer" },
     { id: 4, titulo: "Camiseta Deportiva", precio: 25, img: "img/camiseta.jpg", categoria: "Moda" },
-    { id: 5, titulo: "Smartphone", precio: 300, img: "img/phone.jpg", categoria: "Telefonia" },
+    { id: 5, titulo: "Smartphone", precio: 300, img: "img/smartphone.jpg", categoria: "Telefonia" },
+    { id: 6, titulo: "Sofa Living", precio: 800000, img: "img/sofa.jpg", categoria: "Hogar" },
+    { id: 7, titulo: "Smart TV", precio: 150000, img: "img/smart.jpg", categoria: "Hogar" },
 ];
 
 //==========================3. VARIABLES GLOBALES==========================
